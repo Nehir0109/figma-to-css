@@ -55,10 +55,11 @@ box-sizing: border-box;
 
 .hero-section {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     max-width: 1440px;
     margin: 100px auto auto;
     padding: 0 20px;
+    
 }
 
 .hero-title {
@@ -70,10 +71,17 @@ box-sizing: border-box;
     margin-top: 70px;
 }
 
+
+.hero-content-wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+
 .hero-content {
-    gap: 44px;
     display: flex;
     flex-direction: column;
+    gap: 32px;
 }
 
 .hero-button {
@@ -91,3 +99,10 @@ box-sizing: border-box;
     cursor: pointer;
 }
 
+.hero-company-logos {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 65px;
+}

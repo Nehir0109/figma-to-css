@@ -102,6 +102,7 @@ box-sizing: border-box;
 .hero-company-logos {
     height: 110px;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: auto;
     gap: 65px;

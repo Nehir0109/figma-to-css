@@ -107,6 +107,7 @@ box-sizing: border-box;
     margin: auto;
     gap: 65px;
     max-width: 1000px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-top: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
 }
 
